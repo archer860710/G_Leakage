@@ -26,7 +26,7 @@ PyGithub是一个使用Github API v3的Python第三方库。使用PyGithub，你
 
 G_Leakage就使用了PyGithub，并以此调用Github API。
 
-[PyGithub]: https://pygithub.readthedocs.io/en/latest/index.html
+[有关PyGithub的内容，见这里。](https://pygithub.readthedocs.io/en/latest/index.html)
 
 #### 2、Github API
 
@@ -34,7 +34,7 @@ G_Leakage就使用了PyGithub，并以此调用Github API。
 
 **通过Github API执行的代码搜索，最多只能返回1000条结果。因此，G_Leakage仅适用于该关键字检索结果少于1000条的情况。**
 
-[Github API]: https://docs.github.com/en/rest
+[有关Github API的内容，见这里。](https://docs.github.com/en/rest)
 
 
 
@@ -54,9 +54,7 @@ $ pip install -r requirements.txt
 
 在使用G_Leakage前，确保您已经申请了一个Github Token。Github Token，相比起传统密码具有更高的安全性，使用Github Token来访问Github API，也会有更少的限制条件。
 
-> 如何申请Github Token？
-
-[点这里，申请Github Token]: https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
+[点这里，申请Github Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 
 > 配置mytoken.cfg
 
@@ -129,7 +127,9 @@ G_Leakage还提供了白名单功能。白名单有两个过滤要素：repo名�
 
 > 配置白名单
 
-![image-20210414162513245](C:\Users\HUAWEI\AppData\Roaming\Typora\typora-user-images\image-20210414162513245.png)
+白名单样例
+
+![](https://github.com/archer860710/G_Leakage/blob/main/white_list.jpg)
 
 ```bash
 # 打印出当前所有的白名单规则
