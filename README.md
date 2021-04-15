@@ -41,7 +41,7 @@ G_Leakage就使用了PyGithub，并以此调用Github API。
 ### 三、安装
 
 ```bash
-$ git clone 
+$ git clone https://github.com/archer860710/G_Leakage.git
 $ cd G_Leakage
 $ pip install -r requirements.txt
 ```
